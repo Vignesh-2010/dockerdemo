@@ -8,4 +8,5 @@ spec:
     app: static-web
   ports:
     - port: 80
-      targetPort: 30025
+      targetPort: 80
+      nodePort: 30025
